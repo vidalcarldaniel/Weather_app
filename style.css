@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e0dc7257707935.59e030f55ea98.gif");
+    background-color: #c7895f5c;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
+
+.weather-title {
+    color: white;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 15%;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 0 0 black;
+    margin: 3% auto -2% auto;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    border: transparent;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background-color: #ffffff50;
+    position: sticky;
+    padding: 0;
+}
+
+.header img {
+    height: 10vh;
+    width: 120px;
+}
+
+.header p {
+    margin: 1.2%;
+}
+
+.header span {
+    color: rgb(6, 176, 255);
+}
+
+.searchWrapper {
+    display: flex;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.searchWrapper #cityInput {
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.396);
+    box-shadow: 2px 2px 0 0;
+    border: transparent;
+}
+
+.searchWrapper #searchButton {
+    height: 5vh;
+    width: 32%;
+    background-color: rgba(255, 255, 255, 0.396);
+    box-shadow: 2px 2px 0 0;
+    border: transparent;
+    cursor: pointer;
+}
+
+.searchWrapper .cityInput:hover {
+    background-color: white;
+}
+
+.searchWrapper .searchButton:hover {
+    background-color: white;
+}
+
+.weatherContainer {
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 9%;
+    margin: 5% auto;
+    padding: 30px;
+    border: solid 2px transparent;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.308);
+    border-radius: 50px;
+}
+
+.weather {
+    margin: auto;
+    margin-top: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.192);
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.weather:hover{
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    transition-duration: 1.5s;
+}
+
+
+.value {
+    display: none;
+    background: none;
+}
+
+.weather:hover .value {
+    display: block;
+}
+
+div#weatherContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+footer {
+    position: relative;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    border: transparent;
+    background-color: #ffffff50;
+    padding: 15px;
+}
